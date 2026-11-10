@@ -1,0 +1,36 @@
+[
+  {
+    "name": "TrEEDxe",
+    "original_data1": "bb6cbeff",
+    "pe_file_offsets": [
+      "0x2cf",
+      "0x9a0",
+      "0x1431",
+      "0x1e0e"
+    ]
+  },
+  {
+    "name": "TrEEPei",
+    "original_data1": "a76b4e22",
+    "pe_file_offsets": [
+      "0x7b8",
+      "0xac2"
+    ]
+  },
+  {
+    "name": "Tpm20PlatformDxe",
+    "original_data1": "bb6cbeff",
+    "pe_file_offsets": [
+      "0x22cd"
+    ]
+  },
+  {
+    "name": "AmiTpm20PlatformPei",
+    "original_data1": "a76b4e22",
+    "pe_file_offsets": [
+      "0x5ed",
+      "0x977",
+      "0xb51"
+    ]
+  }
+]

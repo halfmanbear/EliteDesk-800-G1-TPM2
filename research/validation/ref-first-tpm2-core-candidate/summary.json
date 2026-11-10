@@ -1,0 +1,24 @@
+{
+  "status": "STATIC_AND_HOST_CHECKS_ONLY",
+  "extractor_version": "NE alpha 72 (Jun 16 2025)",
+  "extractor_sha256": "801b4dea09475acb8e145fe7f0838956427a25e3097701b916309e553e6950c7",
+  "same_parser_diagnostics_as_stock": true,
+  "image_sha256": {
+    "stock": "c13e4495042f0bda3deadf4d110bf241cdeb6679153cde001b24e7e337b4e2c1",
+    "v2": "2be72be4bf9d440f18138fe9e1e8c056aa01b09ec2de017b40b7929893c638d5"
+  },
+  "host_checks": [
+    "32 ACPI mock scenarios under ASan/UBSan",
+    "TPM Startup/PCR-bank mock-service suite under ASan/UBSan",
+    "8 build containment/integrity cases"
+  ],
+  "rebuild_byte_identical": true,
+  "not_performed": [
+    "hardware boot",
+    "board-specific build",
+    "Windows detection/readiness",
+    "S3/resume",
+    "complete measured-boot verification",
+    "independent ACPICA AML validation"
+  ]
+}

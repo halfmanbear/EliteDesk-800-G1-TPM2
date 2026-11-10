@@ -1,0 +1,121 @@
+{
+  "status": "UNTESTED_DISCOVERY_EXPERIMENT",
+  "reference_only": true,
+  "base_path": "/Users/frasergough/Documents/bios/Official_latest_bios_update/DOS Flash/L01_0278.BIN",
+  "base_sha256": "c13e4495042f0bda3deadf4d110bf241cdeb6679153cde001b24e7e337b4e2c1",
+  "second_read_path": null,
+  "stock_sha256": "c13e4495042f0bda3deadf4d110bf241cdeb6679153cde001b24e7e337b4e2c1",
+  "donor_sha256": "29e07b5287eeaebdc338ed57523d649e9d4f7f79a501fa708d9f18b0f4329463",
+  "output_sha256": "2be72be4bf9d440f18138fe9e1e8c056aa01b09ec2de017b40b7929893c638d5",
+  "size": 16777216,
+  "changed_bytes": 106177,
+  "insertions": [
+    {
+      "name": "PolicyDxe",
+      "offset": 9472264,
+      "size": 3246,
+      "guid": "b6c97b13-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "442e8d58de4b5bf4c76127d30360b8b922981f4a7ce7f00c8b002741489b9afb"
+    },
+    {
+      "name": "TrEEDxe",
+      "offset": 9475512,
+      "size": 39664,
+      "guid": "12345756-fca3-49bd-8dae-c7bae8389aff",
+      "sha256": "452833c60d6fa53c9fec5a32e2e435d410b835fa855d39f8a4498d3c7be01f89"
+    },
+    {
+      "name": "AcpiDxe",
+      "offset": 9515176,
+      "size": 6526,
+      "guid": "b6c97b14-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "2bdcad128b5d26517e974e80c1689a7ae1c5820ad28eafeea8790726f03c87c9"
+    },
+    {
+      "name": "PolicyPei",
+      "offset": 15983856,
+      "size": 3270,
+      "guid": "b6c97b11-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "7c09e738be3a085bfffac06a7de0d5b70ba89a503dc3478e07be49e6b85c5e09"
+    },
+    {
+      "name": "TrEEPei",
+      "offset": 15987128,
+      "size": 22188,
+      "guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+      "sha256": "ed9135966b06efa3cf5bd7b768a9bca10f85e5e01e0c96197398693523f95168"
+    },
+    {
+      "name": "InitPei",
+      "offset": 16009320,
+      "size": 4336,
+      "guid": "b6c97b12-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "0f70342c34d26316c5009b0f8a379df661e69118b5ea663d73ba4181cf1ed454"
+    },
+    {
+      "name": "PolicyPei",
+      "offset": 16639216,
+      "size": 3270,
+      "guid": "b6c97b11-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "7c09e738be3a085bfffac06a7de0d5b70ba89a503dc3478e07be49e6b85c5e09"
+    },
+    {
+      "name": "TrEEPei",
+      "offset": 16642488,
+      "size": 22188,
+      "guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+      "sha256": "ed9135966b06efa3cf5bd7b768a9bca10f85e5e01e0c96197398693523f95168"
+    },
+    {
+      "name": "InitPei",
+      "offset": 16664680,
+      "size": 4336,
+      "guid": "b6c97b12-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "0f70342c34d26316c5009b0f8a379df661e69118b5ea663d73ba4181cf1ed454"
+    }
+  ],
+  "private_policy_patches": {
+    "TrEEPei": [
+      2808827426,
+      2760966417,
+      [
+        1976,
+        2754
+      ]
+    ],
+    "TrEEDxe": [
+      3144466175,
+      2760966690,
+      [
+        719,
+        2464,
+        5169,
+        7694
+      ]
+    ]
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "source_sha256": {
+    "scripts/build_candidate.py": "7db906a5fe2db68563eef04bc0c64cd354eff0c3641cffafbcc2e9ea2b0d4369",
+    "scripts/generate_tpm2_acpi.py": "ee15ceb6766e23d9173cea6c077bcef86a134065a23e584a3a73fdf8ab289bfc",
+    "scripts/test_tpm2_acpi.py": "ffd87d81abbe0d90c932e39ca7c2b2a3abe89f58603adf29a75294967b41c394",
+    "scripts/validate_candidate.py": "b35001d087e5fd3e01db72fd734f117a4cbbd84729fb78e5cf0163afbf3a10e8",
+    "src/efi_min.h": "fe70650202612f90642560cc66dfde29bd29599b20610509fda7e55e7d4a0aaa",
+    "src/relocation_anchor.c": "7fc37dba2a0cb9e5f0b4f1fe92bd426f12c4dea933f23778067170fd37464f25",
+    "src/tpm2_acpi.c": "2a3e92eb08f94dbe57bbeacb598910c32db4de5a6640c57e0e5fbbcb6e43c885",
+    "src/tpm2_diagnostic.asl": "87bde7a3e79c8f0f68cbdb6f9cda70e37d587de142ca41b1f685d8bc65f2c8df",
+    "src/tpm2_init_pei.c": "18d6b487a85f9b78608123740776c66d9fa09f552f53c6077a4c063799ec863f",
+    "src/tpm2_policy.c": "9e940e9b253de249347a234efbb46e3c823fda7df5b6e1f54b27db20bba4a0b1"
+  },
+  "linkers": {
+    "i686": "GNU ld (GNU Binutils) 2.47.20260726",
+    "x86_64": "GNU ld (GNU Binutils) 2.47.20260726"
+  },
+  "limitations": [
+    "No hardware boot test",
+    "No production measured-boot/attestation claim",
+    "No physical presence/TPM clear/provisioning UI",
+    "No S3 acceptance",
+    "Reference images must not replace board-specific SPI data"
+  ]
+}

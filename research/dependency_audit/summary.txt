@@ -1,0 +1,45 @@
+TcgPlatformSetupPolicy 196ca3d8-9a5a-4735-b328-8ffc1d93d188
+  [['PUSH', '1e5668e2-8481-11d4-bcf1-0080c73c8881'], 'END']
+   1e5668e2-8481-11d4-bcf1-0080c73c8881 ['CORE_DXE', 'Runtime']
+Tpm20Acpi 4c8bdf60-2085-4577-8a46-96cb180967bc
+  [['PUSH', 'ffe06bdd-6107-46a6-7bb2-5a9c7ec5275c'], ['PUSH', 'e541b773-dd11-420c-b026-df993653f8bf'], 'AND', ['PUSH', '607f766c-7455-42be-930b-e4d76db2720f'], 'AND', 'END']
+   ffe06bdd-6107-46a6-7bb2-5a9c7ec5275c ['ACPI', 'AbsoluteDriver', 'AlertStandardFormatDxe', 'BdatAccessHandler', 'CppcDxe', 'DigitalThermalSensorSmm', 'DptfDxe', 'NBDXE', 'PchInitDxe', 'PowerMgmtDxe', 'PttHciSmm', 'SaInitDxe', 'SataDriver']
+   e541b773-dd11-420c-b026-df993653f8bf ['CmosManagerSmm', 'CpuSpSMI', 'HpAIORotationSMM', 'HpAiOButtonsSMM', 'HpCsmLegacySMM', 'HpDigitalSignatureVerification', 'HpReplicatedSetup', 'HpSMMUserCredMngrPrivateSrc', 'HpSwSmiROMFlash', 'HpTcgSmm', 'HpVariableAccessToSmiPrivateSrc', 'HpVariableDefaultsPolicy', 'HpWmiSmmHandlers', 'LEGACYSREDIR', 'MicrocodeUpdate', 'NBSMI', 'PchSmiDispatcher', 'PowerMgmtS3', 'PttHciSmm', 'USBRT']
+   607f766c-7455-42be-930b-e4d76db2720f []
+AmiTcgNvflagSample 50f6096d-7c98-4c78-9a1d-c5a1833b6a88
+  [['PUSH', 'f541796d-a62e-4954-a775-9584f61b9cdd'], 'END']
+   f541796d-a62e-4954-a775-9584f61b9cdd ['AmiTxtDxe', 'HpTcgDxe', 'TcgDxe', 'TcgDxeplatform', 'TcgLegacy', 'TxtOneTouchDxe']
+Tpm20PlatformDxe 0718ad81-f26a-4850-a6ec-f268e309d707
+  [['PUSH', '607f766c-7455-42be-930b-e4d76db2720f'], 'END']
+   607f766c-7455-42be-930b-e4d76db2720f []
+TrEEDxe 12345756-fca3-49bd-8dae-c7bae8389aff
+  [['PUSH', '1e5668e2-8481-11d4-bcf1-0080c73c8881'], ['PUSH', 'b0732526-38c8-4b40-8877-61c7b06aac45'], 'AND', ['PUSH', 'dbff9d55-89b7-46da-bddf-677d3dc0241d'], 'AND', ['PUSH', '220e73b6-6bdb-4413-8405-b974b108619a'], 'AND', 'END']
+   1e5668e2-8481-11d4-bcf1-0080c73c8881 ['CORE_DXE', 'Runtime']
+   b0732526-38c8-4b40-8877-61c7b06aac45 ['CpuPolicyDxe', 'PciHostBridge', 'Runtime', 'SBDXE', 'SaInitDxe', 'TxtDxe']
+   dbff9d55-89b7-46da-bddf-677d3dc0241d ['9F72D47D-CC76-45DC-A277-F65E0C4C4063', 'ACPI', 'AcpiPlatform', 'AlertStandardFormatDxe', 'AsfTable', 'CORE_DXE', 'DigitalThermalSensorSmm', 'HpTcgDxe', 'NBDXE', 'OemActivation', 'PchInitDxe', 'PowerMgmtDxe', 'SBDXE', 'SataDriver', 'TcgDxe', 'TcgDxeplatform', 'Terminal']
+   220e73b6-6bdb-4413-8405-b974b108619a ['9F72D47D-CC76-45DC-A277-F65E0C4C4063', 'AMITSE', 'AcpiPlatform', 'AmiBoardInfo', 'AmtWrapperDxe', 'CORE_DXE', 'CSMCORE', 'FvOnFv2Thunk', 'HPComputracePrivateSrc', 'HpCheckpointFlowControlEnt', 'HpTcgDxe', 'IntelSaGopDriver', 'LEGACYSREDIR', 'MebxSetupBrowser', 'PchS3Support', 'PchSpiWrap', 'SBDXE', 'SMBios64', 'SecureBootMod', 'Setup', 'SmmBase', 'TcgDxe', 'TcgLegacy']
+TpmClearOnRollback fd2cb3f1-9520-4c24-bcb3-2c73f0c2b7ec
+  [['PUSH', 'f4ccbfb7-f6e0-47fd-9dd4-10a8f150c191'], 'END']
+   f4ccbfb7-f6e0-47fd-9dd4-10a8f150c191 ['AcpiModeEnable', 'BootScriptHideSmm', 'CRBSMI', 'HpSmmCoreServices', 'IDESMM', 'S3Save', 'SBSMI', 'SleepSmi', 'SmmBase', 'SmmChildDispatcher2', 'USBRT']
+AmiTpm20PlatformPei 0d8039ff-49e9-4cc9-a806-bb7c31b0bcb0
+  [['PUSH', '86f5680a-155c-4bc8-ac77-573848e2ad3d'], ['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'AND', 'END']
+   86f5680a-155c-4bc8-ac77-573848e2ad3d []
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']
+TrEEPei 20341ce2-d448-4b5e-9411-fe9826402dcf
+  [['PUSH', '7408d748-fc8c-4ee6-9288-c4bec092a410'], ['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'AND', 'END']
+   7408d748-fc8c-4ee6-9288-c4bec092a410 ['CpuInitPei', 'SBPEI']
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']
+TcgPlatformSetupPeiPolicy 0fe9da53-043d-4265-a94d-fd77fede2eb4
+  [['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'END']
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']
+AmiTpm20PlatformPei 0d8039ff-49e9-4cc9-a806-bb7c31b0bcb0
+  [['PUSH', '86f5680a-155c-4bc8-ac77-573848e2ad3d'], ['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'AND', 'END']
+   86f5680a-155c-4bc8-ac77-573848e2ad3d []
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']
+TrEEPei 20341ce2-d448-4b5e-9411-fe9826402dcf
+  [['PUSH', '7408d748-fc8c-4ee6-9288-c4bec092a410'], ['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'AND', 'END']
+   7408d748-fc8c-4ee6-9288-c4bec092a410 ['CpuInitPei', 'SBPEI']
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']
+TcgPlatformSetupPeiPolicy 0fe9da53-043d-4265-a94d-fd77fede2eb4
+  [['PUSH', '3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa'], 'END']
+   3cdc90c6-13fb-4a75-9e79-59e9dd78b9fa ['AmiCpuS3Pei', 'AmiTxtPei', 'AmtPeiPolicyInit', 'CORE_PEI', 'CpuDxe', 'CpuPei', 'CpuPolicyPei', 'HpTcgPeiAfterMem', 'HpTcgPeiBeforeMem', 'MePeiPolicyInit', 'MemoryInit', 'PchInitPeim', 'PchS3Peim', 'PeiRamBoot', 'SaInitPeim', 'SmBusPei', 'TcgPei', 'TcgPeiAfterMem']

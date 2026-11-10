@@ -1,0 +1,72 @@
+[
+  {
+    "path": "analysis/pe/hp_PttHciSmm.bin",
+    "sha256": "bfb2ac27c4547e612e35b9a3f5c9beb9fd45abf713a67627c8d0c88a7924bf2d",
+    "asm": "analysis/hp_interactions/hp_PttHciSmm.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgLegacy.bin",
+    "sha256": "c5084bb5282da35599636eb3bf641adf18fc87d85f605f3cd56416d681c55950",
+    "asm": "analysis/hp_interactions/hp_TcgLegacy.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgPeiAfterMem.bin",
+    "sha256": "c2d6e5f2ac96ea946fa7b640d50923ec718ee3bf3a2a0cb61e16bb6b0c7d2d62",
+    "asm": "analysis/hp_interactions/hp_HpTcgPeiAfterMem.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgPeiBeforeMem.bin",
+    "sha256": "8a21442dfac7d8eaafd13aceca04bd8e3f99ce72d277e4c4c1e3755769030c67",
+    "asm": "analysis/hp_interactions/hp_HpTcgPeiBeforeMem.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgPeiAfterMem.bin",
+    "sha256": "55d70e87ac2f3a1a04cd076f937c7db0420686c2e824836f6d30f5491c9f24be",
+    "asm": "analysis/hp_interactions/hp_TcgPeiAfterMem.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgDxe.bin",
+    "sha256": "0949da5d13465c524227f4d295f8e93c787a9256938737d9f3d143c51f06860c",
+    "asm": "analysis/hp_interactions/hp_TcgDxe.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgPeiplatform.bin",
+    "sha256": "d245fb4146d066f5acdb3755a388b6a9887b2c551dbd2ced2d00ea5e24efa458",
+    "asm": "analysis/hp_interactions/hp_TcgPeiplatform.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgDxeplatform.bin",
+    "sha256": "d5fb7d51d4307474bc23f628cf6b821d8058dd73bc6a00537e4b6be69b81cbd9",
+    "asm": "analysis/hp_interactions/hp_TcgDxeplatform.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgDxePolicy.bin",
+    "sha256": "555b76675bf84d4dc27947859e91e60a9b943873ea3eb75b47bc273237fa21a7",
+    "asm": "analysis/hp_interactions/hp_HpTcgDxePolicy.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgSmm.bin",
+    "sha256": "5b3865f855d758c2d83e1ff197fc1b7f400eb304d8e5bdfbe900528d13e6ee9f",
+    "asm": "analysis/hp_interactions/hp_HpTcgSmm.asm"
+  },
+  {
+    "path": "analysis/pe/hp_TcgPei.bin",
+    "sha256": "98ef481f572f5d8459e7b9460fa0db4c91b4ad017428c3c1ca7ffd33f4c3decc",
+    "asm": "analysis/hp_interactions/hp_TcgPei.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgDxe.bin",
+    "sha256": "85e96c31b79274433e4b3773c8b8293a2a155a01758dbe38101f32e2d2ff4b27",
+    "asm": "analysis/hp_interactions/hp_HpTcgDxe.asm"
+  },
+  {
+    "path": "analysis/pe/hp_HpTcgPeiPolicy.bin",
+    "sha256": "ca43d68d72ae261ecfb905baeb5896ec71578d5388a1743d9a4085a160df6df4",
+    "asm": "analysis/hp_interactions/hp_HpTcgPeiPolicy.asm"
+  },
+  {
+    "path": "analysis/pe/hp_PttWrapper.bin",
+    "sha256": "9f7fa8f10d706148e5e12911b4502918a21249631e8ef62f2caee1956e4dc4e1",
+    "asm": "analysis/hp_interactions/hp_PttWrapper.asm"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "programmer_reported_by_user": "XGecu Pro T76",
+  "method": "Copy offsets 0x000000 through 0xFFFFFF inclusive; preserve originals. The trailing 80 bytes begin -Configuration-; exact footer semantics unverified.",
+  "boot_validated": false,
+  "files": [
+    {
+      "original": "dump_1_MX25L12873F@WSON8.BIN",
+      "original_size": 16777296,
+      "original_sha256": "cf5aed0a537d09b92708536531dc7a3ddaad43fd6df07e560786d883d5cb4b31",
+      "raw": "dump_1_raw_16MiB.bin",
+      "raw_size": 16777216,
+      "raw_sha256": "dc713333d6516afb870ec0013a68fb527652ab8d7c0c272dae83063173609834",
+      "excluded_footer_hex": "2d436f6e66696775726174696f6e2d0040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "original": "dump_2_MX25L12873F@WSON8.BIN",
+      "original_size": 16777296,
+      "original_sha256": "cf5aed0a537d09b92708536531dc7a3ddaad43fd6df07e560786d883d5cb4b31",
+      "raw": "dump_2_raw_16MiB.bin",
+      "raw_size": 16777216,
+      "raw_sha256": "dc713333d6516afb870ec0013a68fb527652ab8d7c0c272dae83063173609834",
+      "excluded_footer_hex": "2d436f6e66696775726174696f6e2d0040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

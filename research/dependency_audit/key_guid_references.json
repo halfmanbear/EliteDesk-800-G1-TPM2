@@ -1,0 +1,217 @@
+{
+  "607f766c-7455-42be-930b-e4d76db2720f": {
+    "stock": [],
+    "donor": []
+  },
+  "86f5680a-155c-4bc8-ac77-573848e2ad3d": {
+    "stock": [],
+    "donor": [
+      {
+        "module": "TrEEPei",
+        "file_guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/5 8C8CE578-8A3D-4F1C-9935-896185C32DD3/36 TrEEPei/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          20928
+        ]
+      },
+      {
+        "module": "TrEEPei",
+        "file_guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/6 8C8CE578-8A3D-4F1C-9935-896185C32DD3/36 TrEEPei/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          20928
+        ]
+      }
+    ]
+  },
+  "a030d115-54dd-447b-9064-f206883d7ccc": {
+    "stock": [],
+    "donor": []
+  },
+  "f541796d-a62e-4954-a775-9584f61b9cdd": {
+    "stock": [
+      {
+        "module": "TcgDxe",
+        "file_guid": "5e9caba3-f2b1-497a-adac-24f575e9cde9",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/160 TcgDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          23152,
+          25496
+        ]
+      },
+      {
+        "module": "HpTcgDxe",
+        "file_guid": "a29a63e3-e4e7-495f-8a6a-07738300cbb3",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/163 HpTcgDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          20512,
+          22480
+        ]
+      },
+      {
+        "module": "AmiTxtDxe",
+        "file_guid": "87d402cd-8b07-4b93-b38b-f8799f28b033",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/26 AmiTxtDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          5264
+        ]
+      },
+      {
+        "module": "TxtOneTouchDxe",
+        "file_guid": "67791e00-0c05-4ae7-a921-fc4057221653",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/23 TxtOneTouchDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          6088
+        ]
+      },
+      {
+        "module": "TcgLegacy",
+        "file_guid": "858ebe6f-360f-415b-b7dc-463aaeb03412",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/167 TcgLegacy/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          2544,
+          2672
+        ]
+      },
+      {
+        "module": "TcgDxeplatform",
+        "file_guid": "2688b232-9c02-4c12-be1f-857c0ff2aae3",
+        "path": "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/161 TcgDxeplatform/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          2240,
+          3824
+        ]
+      }
+    ],
+    "donor": [
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/30 AmiTxtDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          3120
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/149 TcgDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          31344
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/147 TcgLegacy/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          4432
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/25 TxtOneTouchDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          6184
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/145 AmiTcgPlatformDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          22720
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/144 AmiTcgNvflagSample/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          3984
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/146 TcgDxeplatform/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          2240
+        ]
+      },
+      {
+        "module": "FV_MAIN_NESTED",
+        "file_guid": "ae717c2f-1a42-4f2b-8861-78b79ca07e07",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/12 CORE_DXE/0 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          311960
+        ]
+      },
+      {
+        "module": "CORE_DXE",
+        "file_guid": "5ae3f37e-4eae-41ae-8240-35465b5e81eb",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/12 CORE_DXE/0 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          311960
+        ]
+      },
+      {
+        "module": "TcgDxeplatform",
+        "file_guid": "2688b232-9c02-4c12-be1f-857c0ff2aae3",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/146 TcgDxeplatform/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          2240
+        ]
+      },
+      {
+        "module": "AmiTcgNvflagSample",
+        "file_guid": "50f6096d-7c98-4c78-9a1d-c5a1833b6a88",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/144 AmiTcgNvflagSample/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          3984
+        ]
+      },
+      {
+        "module": "AmiTcgPlatformDxe",
+        "file_guid": "a29a63e3-e4e7-495f-8a6a-07738300cbb3",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/145 AmiTcgPlatformDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          22720
+        ]
+      },
+      {
+        "module": "TxtOneTouchDxe",
+        "file_guid": "67791e00-0c05-4ae7-a921-fc4057221653",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/25 TxtOneTouchDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          6184
+        ]
+      },
+      {
+        "module": "TcgLegacy",
+        "file_guid": "858ebe6f-360f-415b-b7dc-463aaeb03412",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/147 TcgLegacy/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          4432
+        ]
+      },
+      {
+        "module": "TcgDxe",
+        "file_guid": "5e9caba3-f2b1-497a-adac-24f575e9cde9",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/149 TcgDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          31344
+        ]
+      },
+      {
+        "module": "AmiTxtDxe",
+        "file_guid": "87d402cd-8b07-4b93-b38b-f8799f28b033",
+        "path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/30 AmiTxtDxe/1 Compressed section/0 PE32 image section/body.bin",
+        "offsets": [
+          3120
+        ]
+      }
+    ]
+  }
+}

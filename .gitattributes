@@ -1,0 +1,8 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.bat text eol=crlf
+*.bin binary
+*.BIN binary
+*.pe32 binary
+*.depex binary
+*.ffs binary

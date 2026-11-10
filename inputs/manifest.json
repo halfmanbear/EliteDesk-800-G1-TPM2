@@ -1,0 +1,80 @@
+{
+  "provenance": "Recovered donor archive, original carved FFS and decompressed core sections from the prior local scratchpad; image identity verified. Archive is not an authenticated vendor download.",
+  "files": [
+    {
+      "path": "inputs/core/TrEEDxe.depex",
+      "size": 72,
+      "sha256": "409a03c2a3b3017702b3bd5095dacbead20985af5676b34705a6ea0a8945b192"
+    },
+    {
+      "path": "inputs/core/TrEEDxe.pe32",
+      "size": 39488,
+      "sha256": "6ceb1fad2345e84e54e506edafb0f3b106061de9791ae66704472cd3a6e609b3"
+    },
+    {
+      "path": "inputs/core/TrEEPei.depex",
+      "size": 36,
+      "sha256": "7f9372bfeb36a6bc09e74c368a022543b42b3fd6ca4351118795c4833e757908"
+    },
+    {
+      "path": "inputs/core/TrEEPei.pe32",
+      "size": 22048,
+      "sha256": "d995c97b720367873ed1d4b7dd15cb4d413984474a7858a60246c115c9583471"
+    },
+    {
+      "path": "inputs/donor/X10SLM0.414",
+      "size": 16777216,
+      "sha256": "29e07b5287eeaebdc338ed57523d649e9d4f7f79a501fa708d9f18b0f4329463"
+    },
+    {
+      "path": "inputs/donor/X10SLM0_414.zip",
+      "size": 4341910,
+      "sha256": "df3cb3d6e76e1a0f876ec4bac7e20df8ea147819ae95d962a035371ccbcf9e34"
+    },
+    {
+      "path": "inputs/modules/AmiTcgNvflagSample_50f6096d-7c98-4c78-9a1d-c5a1833b6a88.ffs",
+      "size": 6825,
+      "sha256": "a9bc26ba7e21f69ed6d31dee814f13ac3697a82a365503333db36e17824f8d51"
+    },
+    {
+      "path": "inputs/modules/AmiTpm20PlatformPei_0d8039ff-49e9-4cc9-a806-bb7c31b0bcb0.ffs",
+      "size": 2723,
+      "sha256": "b560a0d543fd523770f0f5462abe0b41286f85b74c10aa6fa3028e27d04dcb0d"
+    },
+    {
+      "path": "inputs/modules/TcgPlatformSetupPeiPolicy_0fe9da53-043d-4265-a94d-fd77fede2eb4.ffs",
+      "size": 1804,
+      "sha256": "7eda468043dc9f2d3b9b18c7b4ab024fac7e4437d27b2e10d33ee993f4c3af02"
+    },
+    {
+      "path": "inputs/modules/TcgPlatformSetupPolicy_196ca3d8-9a5a-4735-b328-8ffc1d93d188.ffs",
+      "size": 5969,
+      "sha256": "d563bd36c1ecd29eff9a8939c9a7cfccd5b03c193cc2eee0590fb437eeef8ae3"
+    },
+    {
+      "path": "inputs/modules/Tpm20Acpi_4c8bdf60-2085-4577-8a46-96cb180967bc.ffs",
+      "size": 7545,
+      "sha256": "e639527d4d15fd17497ec771d0b5da7ca728c90a988135d454846e7cbc0a8c86"
+    },
+    {
+      "path": "inputs/modules/Tpm20PlatformDxe_0718ad81-f26a-4850-a6ec-f268e309d707.ffs",
+      "size": 17041,
+      "sha256": "05b1225683c050b883b37273228bd7545dac9fe1ce047b5eb17a00b65f39170f"
+    },
+    {
+      "path": "inputs/modules/TpmClearOnRollback_fd2cb3f1-9520-4c24-bcb3-2c73f0c2b7ec.ffs",
+      "size": 8265,
+      "sha256": "edb77a34578d5320a0a902df6f79be363facfcaca87dab44d72e5d0ad2642384"
+    },
+    {
+      "path": "inputs/modules/TrEEDxe_12345756-fca3-49bd-8dae-c7bae8389aff.ffs",
+      "size": 39621,
+      "sha256": "ad4b969a0434d8b94d570594748a428250ec0faa7f003fb76105818b906528e6"
+    },
+    {
+      "path": "inputs/modules/TrEEPei_20341ce2-d448-4b5e-9411-fe9826402dcf.ffs",
+      "size": 8781,
+      "sha256": "3177a6588a0a80441d3e19d6750c19c97392da18223fc066bb48a5e276e8a9c7"
+    }
+  ]
+}

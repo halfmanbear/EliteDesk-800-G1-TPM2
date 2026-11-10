@@ -1,0 +1,17 @@
+parseIntelImage: SPI flash with unknown JEDEC ID 1F4900 found in VSCC table
+parseIntelImage: SPI flash with unknown JEDEC ID 1F8900 found in VSCC table
+parseFileHeader: file alignment 10h is greater than parent volume alignment 8h
+parseFileHeader: invalid data checksum 5Ah, should be AAh
+parseFileHeader: file alignment 10h is greater than parent volume alignment 8h
+parseFileHeader: file alignment 10h is greater than parent volume alignment 8h
+parseFileHeader: file alignment 1000h is greater than parent volume alignment 8h
+parseFileHeader: file alignment 10h is greater than parent volume alignment 8h
+parseFileHeader: file alignment 1000h is greater than parent volume alignment 8h
+parseFileHeader: file alignment 1000h is greater than parent volume alignment 8h
+parsePadFileBody: non-UEFI data found in padding file
+findFitRecursive: real FIT table found at physical address FFE90060h
+---------------------------------------------------------------------------
+     Address      |   Size    |  Ver  | CS  |          Type / Info          
+---------------------------------------------------------------------------
+_FIT_             | 00000020h | 0100h | 00h | FIT Header | 
+00000000FFED7D40h | 00005C00h | 0100h | 00h | Microcode | CpuSignature: 000306C3h, Revision: 00000028h, Date: 12.11.2019

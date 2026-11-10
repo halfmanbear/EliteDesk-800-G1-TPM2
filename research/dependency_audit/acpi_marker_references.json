@@ -1,0 +1,36 @@
+{
+  "stock": {
+    "TPMM": [],
+    "DTPT": [],
+    "TPMF": [
+      "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/67 AAA99A23-13B6-4C31-BB8B-299E8EC04FA4/0 Raw section/body.bin",
+      "Official_latest_bios_update/DOS Flash/L01_0278.BIN.dump/3 BIOS region/1 8C8CE578-8A3D-4F1C-9935-896185C32DD3/14 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin"
+    ],
+    "FTPM": [],
+    "AMDT": []
+  },
+  "donor": {
+    "TPMM": [
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/16 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/145 AmiTcgPlatformDxe/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/153 Tpm20Acpi/1 Compressed section/0 PE32 image section/body.bin"
+    ],
+    "DTPT": [
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/16 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/153 Tpm20Acpi/1 Compressed section/0 PE32 image section/body.bin"
+    ],
+    "TPMF": [
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/16 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/145 AmiTcgPlatformDxe/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/153 Tpm20Acpi/1 Compressed section/0 PE32 image section/body.bin"
+    ],
+    "FTPM": [
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/16 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/153 Tpm20Acpi/1 Compressed section/0 PE32 image section/body.bin"
+    ],
+    "AMDT": [
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/16 AmiBoardInfo/1 Compressed section/0 PE32 image section/body.bin",
+      "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/153 Tpm20Acpi/1 Compressed section/0 PE32 image section/body.bin"
+    ]
+  }
+}

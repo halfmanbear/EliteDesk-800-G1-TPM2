@@ -1,0 +1,12 @@
+607f766c-7455-42be-930b-e4d76db2720f
+stock []
+donor []
+86f5680a-155c-4bc8-ac77-573848e2ad3d
+stock []
+donor [('TrEEPei', [20928]), ('TrEEPei', [20928])]
+a030d115-54dd-447b-9064-f206883d7ccc
+stock []
+donor []
+f541796d-a62e-4954-a775-9584f61b9cdd
+stock [('TcgDxe', [23152, 25496]), ('HpTcgDxe', [20512, 22480]), ('AmiTxtDxe', [5264]), ('TxtOneTouchDxe', [6088]), ('TcgLegacy', [2544, 2672]), ('TcgDxeplatform', [2240, 3824])]
+donor [('FV_MAIN_NESTED', [3120]), ('FV_MAIN_NESTED', [31344]), ('FV_MAIN_NESTED', [4432]), ('FV_MAIN_NESTED', [6184]), ('FV_MAIN_NESTED', [22720]), ('FV_MAIN_NESTED', [3984]), ('FV_MAIN_NESTED', [2240]), ('FV_MAIN_NESTED', [311960]), ('CORE_DXE', [311960]), ('TcgDxeplatform', [2240]), ('AmiTcgNvflagSample', [3984]), ('AmiTcgPlatformDxe', [22720]), ('TxtOneTouchDxe', [6184]), ('TcgLegacy', [4432]), ('TcgDxe', [31344]), ('AmiTxtDxe', [3120])]

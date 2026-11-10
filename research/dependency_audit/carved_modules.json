@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TrEEDxe",
+    "guid": "12345756-fca3-49bd-8dae-c7bae8389aff",
+    "path": "inputs/modules/TrEEDxe_12345756-fca3-49bd-8dae-c7bae8389aff.ffs",
+    "size": 39621,
+    "sha256": "ad4b969a0434d8b94d570594748a428250ec0faa7f003fb76105818b906528e6",
+    "ffs_header_data_checksums": "valid",
+    "pe_entry_rva": "0x1df8",
+    "pe_image_base": "0x180000000",
+    "pe_entry_va": "0x180001df8",
+    "source_pe_path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/140 TrEEDxe/1 Compressed section/0 PE32 image section/body.bin"
+  },
+  {
+    "name": "TrEEPei",
+    "guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+    "path": "inputs/modules/TrEEPei_20341ce2-d448-4b5e-9411-fe9826402dcf.ffs",
+    "size": 8781,
+    "sha256": "3177a6588a0a80441d3e19d6750c19c97392da18223fc066bb48a5e276e8a9c7",
+    "ffs_header_data_checksums": "valid",
+    "pe_entry_rva": "0xa8e",
+    "pe_image_base": "0x10000000",
+    "pe_entry_va": "0x10000a8e",
+    "source_pe_path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/5 8C8CE578-8A3D-4F1C-9935-896185C32DD3/36 TrEEPei/1 Compressed section/0 PE32 image section/body.bin"
+  },
+  {
+    "name": "TcgPlatformSetupPolicy",
+    "guid": "196ca3d8-9a5a-4735-b328-8ffc1d93d188",
+    "path": "inputs/modules/TcgPlatformSetupPolicy_196ca3d8-9a5a-4735-b328-8ffc1d93d188.ffs",
+    "size": 5969,
+    "sha256": "d563bd36c1ecd29eff9a8939c9a7cfccd5b03c193cc2eee0590fb437eeef8ae3",
+    "ffs_header_data_checksums": "valid",
+    "pe_entry_rva": "0x758",
+    "pe_image_base": "0x180000000",
+    "pe_entry_va": "0x180000758",
+    "source_pe_path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/2 8C8CE578-8A3D-4F1C-9935-896185C32DD3/6 FV_MAIN_NESTED/0 Compressed section/0 Volume image section/0 8C8CE578-8A3D-4F1C-9935-896185C32DD3/148 TcgPlatformSetupPolicy/1 Compressed section/0 PE32 image section/body.bin"
+  },
+  {
+    "name": "TcgPlatformSetupPeiPolicy",
+    "guid": "0fe9da53-043d-4265-a94d-fd77fede2eb4",
+    "path": "inputs/modules/TcgPlatformSetupPeiPolicy_0fe9da53-043d-4265-a94d-fd77fede2eb4.ffs",
+    "size": 1804,
+    "sha256": "7eda468043dc9f2d3b9b18c7b4ab024fac7e4437d27b2e10d33ee993f4c3af02",
+    "ffs_header_data_checksums": "valid",
+    "pe_entry_rva": "0x4b4",
+    "pe_image_base": "0xffcb644c",
+    "pe_entry_va": "0xffcb6900",
+    "source_pe_path": "inputs/donor/X10SLM0.414.dump/4 BIOS region/5 8C8CE578-8A3D-4F1C-9935-896185C32DD3/41 TcgPlatformSetupPeiPolicy/1 PE32 image section/body.bin"
+  }
+]

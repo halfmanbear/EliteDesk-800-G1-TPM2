@@ -1,0 +1,19 @@
+{
+  "status": "BOARD_STATIC_CHECKS_PASSED_NOT_HARDWARE_TESTED",
+  "base_sha256": "dc713333d6516afb870ec0013a68fb527652ab8d7c0c272dae83063173609834",
+  "candidate_sha256": "4d9759652f3dba1fa3b9938c9a636f9f7ed6c5e50d103b35d21f9ef31359671b",
+  "size": 16777216,
+  "changed_bytes": 92229,
+  "insertions": 9,
+  "matching_reads": true,
+  "rebuild_byte_identical": true,
+  "all_bytes_outside_insertions_preserved": true,
+  "insertions_only_into_erased_bytes": true,
+  "same_parser_diagnostics_as_board_original": true,
+  "not_performed": [
+    "candidate hardware boot",
+    "Windows TPM detection/readiness",
+    "S3/resume",
+    "complete measured-boot verification"
+  ]
+}

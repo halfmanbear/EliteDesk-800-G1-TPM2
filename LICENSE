@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 the project's contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This license covers the original work in this repository: the code in `src/`,
+`scripts/`, `tests/`, the root build scripts and launchers, the documentation in
+`docs/` and `research/`, and the README. It does NOT cover, and does not grant any
+rights to, third-party material referenced or locally cached by this project but
+excluded from version control — including HP's BIOS update package, the Supermicro
+donor BIOS, Infineon's TPM firmware/tools, and UEFIExtract. Each remains the
+property of its respective owner under its own license; see
+THIRD_PARTY_NOTICES.md and docs/SETUP.md for exactly what that covers and where to
+obtain it yourself.
+
+The small extracted donor modules kept under `inputs/core/` (`TrEEPei.pe32`,
+`TrEEDxe.pe32` and their `.depex` files) are an exception worth flagging
+explicitly: they are binary fragments carved from a third-party vendor BIOS,
+kept here only because this project's PEI/DXE drivers depend on them at build
+time and because the full donor BIOS they came from is not. They are not
+"original work" and are not covered by the MIT grant above either — treat them
+under the vendor's own terms. THIRD_PARTY_NOTICES.md lists the other
+vendor-derived files kept under `research/` for analysis.

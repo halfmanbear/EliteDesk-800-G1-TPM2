@@ -1,0 +1,44 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# --- Private: this board's own reads and readbacks ---------------------------
+# Full 16 MiB reads carry the board's real GbE MAC address and live ME/NVRAM
+# state (docs/BUILD_AND_PORTING.md, "Board identity"). Never publish them.
+backups/*
+!backups/README.md
+
+# --- Generated: build output ---------------------------------------------------
+# Regenerable from source + your reads, and built from a private read, so it
+# carries the same board identity as backups/.
+build/
+
+# --- Historical images ---------------------------------------------------------
+# Every historical .bin was built from either this board's reads (private) or
+# HP's image (not ours to redistribute). The evidence sidecars that were already
+# tracked stay tracked; the rest of the folder is local-only.
+research/images/*
+!research/images/README.md
+!research/images/ref-platform-modules-without-tpm2-core.bin.report.txt
+!research/images/ref-first-tpm2-core-candidate.bin.json
+!research/images/ref-first-tpm2-core-candidate.bin.report.txt
+!research/images/ref-gnu-ld-candidate.bin.json
+!research/images/board-gnu-ld-candidate-no-post.bin.json
+!research/images/board-lld-unrebased-pei-hang.bin.json
+
+# --- Third-party vendor material: re-obtain, never commit ---------------------
+# HP SoftPaq SP103785, the Supermicro donor BIOS and UEFIExtract live here.
+# docs/SETUP.md has exact hashes and official sources.
+vendor-cache/*
+!vendor-cache/README.md
+
+# Infineon's TPM firmware updater + firmware image (tools/tpm_firmware_update/):
+# keep our own README/scripts tracked, not Infineon's binaries/firmware/PDF.
+tools/tpm_firmware_update/*.efi
+tools/tpm_firmware_update/*.exe
+tools/tpm_firmware_update/*.sys
+tools/tpm_firmware_update/*.BIN
+tools/tpm_firmware_update/*.pdf
+tools/tpm_firmware_update/Infineon_Package_Readme.txt
+tools/tpm_firmware_update/*.zip

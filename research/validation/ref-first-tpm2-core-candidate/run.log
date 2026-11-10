@@ -1,0 +1,46 @@
+ACPI publisher: 32 mock scenarios passed
+TPM2 init PEI mock-service tests passed
+test_core_identity_required (test_candidate.CandidateTests.test_core_identity_required) ... ok
+test_delivered_image_matches_verified_reconstruction (test_candidate.CandidateTests.test_delivered_image_matches_verified_reconstruction) ... ok
+test_different_layout_refused (test_candidate.CandidateTests.test_different_layout_refused) ... ok
+test_duplicate_candidate_refused (test_candidate.CandidateTests.test_duplicate_candidate_refused) ... ok
+test_fv_header_corruption_refused (test_candidate.CandidateTests.test_fv_header_corruption_refused) ... ok
+test_independent_ffs_and_sections_validation (test_candidate.CandidateTests.test_independent_ffs_and_sections_validation) ... ok
+test_occupied_tail_refused (test_candidate.CandidateTests.test_occupied_tail_refused) ... ok
+test_preserves_simulated_board_data_and_existing_firmware (test_candidate.CandidateTests.test_preserves_simulated_board_data_and_existing_firmware) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.547s
+
+OK
+SSDT 117 bytes, TPM2 52 bytes -> /Users/frasergough/Documents/bios/build/tpm2_tables.h
+{
+  "output": "/var/folders/0k/f1qmthnj6kv5q_qrnpg_72480000gn/T/l01-validate-2sxtwjru/rebuild_REFERENCE_ONLY.bin",
+  "sha256": "2be72be4bf9d440f18138fe9e1e8c056aa01b09ec2de017b40b7929893c638d5",
+  "changed_bytes": 106177,
+  "status": "UNTESTED_DISCOVERY_EXPERIMENT"
+}
+{
+  "status": "STATIC_AND_HOST_CHECKS_ONLY",
+  "extractor_version": "NE alpha 72 (Jun 16 2025)",
+  "extractor_sha256": "801b4dea09475acb8e145fe7f0838956427a25e3097701b916309e553e6950c7",
+  "same_parser_diagnostics_as_stock": true,
+  "image_sha256": {
+    "stock": "c13e4495042f0bda3deadf4d110bf241cdeb6679153cde001b24e7e337b4e2c1",
+    "v2": "2be72be4bf9d440f18138fe9e1e8c056aa01b09ec2de017b40b7929893c638d5"
+  },
+  "host_checks": [
+    "32 ACPI mock scenarios under ASan/UBSan",
+    "TPM Startup/PCR-bank mock-service suite under ASan/UBSan",
+    "8 build containment/integrity cases"
+  ],
+  "rebuild_byte_identical": true,
+  "not_performed": [
+    "hardware boot",
+    "board-specific build",
+    "Windows detection/readiness",
+    "S3/resume",
+    "complete measured-boot verification",
+    "independent ACPICA AML validation"
+  ]
+}

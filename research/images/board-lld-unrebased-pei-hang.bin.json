@@ -1,0 +1,133 @@
+{
+  "candidate_version": 3,
+  "status": "UNTESTED_DISCOVERY_EXPERIMENT",
+  "reference_only": false,
+  "base_path": "/Users/frasergough/Documents/bios/Golden_OG_Dump/dump_1_raw_16MiB.bin",
+  "base_sha256": "dc713333d6516afb870ec0013a68fb527652ab8d7c0c272dae83063173609834",
+  "second_read_path": "/Users/frasergough/Documents/bios/Golden_OG_Dump/dump_2_raw_16MiB.bin",
+  "stock_sha256": "c13e4495042f0bda3deadf4d110bf241cdeb6679153cde001b24e7e337b4e2c1",
+  "donor_sha256": "29e07b5287eeaebdc338ed57523d649e9d4f7f79a501fa708d9f18b0f4329463",
+  "output_sha256": "4d9759652f3dba1fa3b9938c9a636f9f7ed6c5e50d103b35d21f9ef31359671b",
+  "size": 16777216,
+  "changed_bytes": 92229,
+  "insertions": [
+    {
+      "name": "PolicyDxe",
+      "offset": 9472264,
+      "size": 950,
+      "guid": "b6c97b13-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "ce419018cad63b47cb3015c1d79a154a4497bf90d9bffc73f1fc1b2fe9cc05b2"
+    },
+    {
+      "name": "TrEEDxe",
+      "offset": 9473216,
+      "size": 39664,
+      "guid": "12345756-fca3-49bd-8dae-c7bae8389aff",
+      "sha256": "452833c60d6fa53c9fec5a32e2e435d410b835fa855d39f8a4498d3c7be01f89"
+    },
+    {
+      "name": "AcpiDxe",
+      "offset": 9512880,
+      "size": 3266,
+      "guid": "b6c97b14-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "9cd4f15c4998d82f40133c645273ff2445a16d2a0c16f74dc64240f635093edd"
+    },
+    {
+      "name": "PolicyPei",
+      "offset": 15983856,
+      "size": 902,
+      "guid": "b6c97b11-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "60ad2ccd0ad920fa70e7565cfec61c34b1db615151440700f6360db34aba20b2"
+    },
+    {
+      "name": "TrEEPei",
+      "offset": 15984760,
+      "size": 22188,
+      "guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+      "sha256": "ed9135966b06efa3cf5bd7b768a9bca10f85e5e01e0c96197398693523f95168"
+    },
+    {
+      "name": "InitPei",
+      "offset": 16006952,
+      "size": 2364,
+      "guid": "b6c97b12-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "ab5b6f726a5a943c77773bbb301fd6137f0653efef2471df24f8d3f733bea847"
+    },
+    {
+      "name": "PolicyPei",
+      "offset": 16639216,
+      "size": 902,
+      "guid": "b6c97b11-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "60ad2ccd0ad920fa70e7565cfec61c34b1db615151440700f6360db34aba20b2"
+    },
+    {
+      "name": "TrEEPei",
+      "offset": 16640120,
+      "size": 22188,
+      "guid": "20341ce2-d448-4b5e-9411-fe9826402dcf",
+      "sha256": "ed9135966b06efa3cf5bd7b768a9bca10f85e5e01e0c96197398693523f95168"
+    },
+    {
+      "name": "InitPei",
+      "offset": 16662312,
+      "size": 2364,
+      "guid": "b6c97b12-4631-4ed0-9d24-3ec90187ef11",
+      "sha256": "ab5b6f726a5a943c77773bbb301fd6137f0653efef2471df24f8d3f733bea847"
+    }
+  ],
+  "private_policy_patches": {
+    "TrEEPei": [
+      2808827426,
+      2760966417,
+      [
+        1976,
+        2754
+      ]
+    ],
+    "TrEEDxe": [
+      3144466175,
+      2760966690,
+      [
+        719,
+        2464,
+        5169,
+        7694
+      ]
+    ]
+  },
+  "diagnostic_application": {
+    "path": "build/tpm2_diag.efi",
+    "sha256": "fa35f82990dcdb4eaee58e3fc8c1c21a084b646bab73ac2dcece3f2de784618f",
+    "spi_insertion": false,
+    "purpose": "Read-only pre-OS diagnostics; no TPM commands"
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "source_sha256": {
+    "scripts/build_candidate.py": "4ab7387d63c583257d92e26191a2eb4328c998b16687bd5a401059a579fd78c5",
+    "scripts/generate_tpm2_acpi.py": "0ef7786b160dffdca5503a3555f1cff12c3bb93aead74bc5f1346c7a6dc2ee35",
+    "scripts/test_tpm2_acpi.py": "c84b4cba0baf2825fdd8b68460f5f30854af7b9f64fd8d2caa55c63b7c7f023e",
+    "scripts/test_tpm2_diag_app.py": "ee508d78579c69588d6bc3cb66aa1a85a523eded1ea097604e4f248f98bac0c6",
+    "scripts/validate_board_candidate.py": "33c5ee9363e3dfe457da8eb6f09565310d56be9554eb426dbbf40cd5dc07d400",
+    "scripts/validate_candidate.py": "d1084769d12a93a5c82b8d7a4ba684b85df1eeb851eb16a42d72fa124787e9e6",
+    "src/efi_min.h": "fe70650202612f90642560cc66dfde29bd29599b20610509fda7e55e7d4a0aaa",
+    "src/relocation_anchor.c": "7fc37dba2a0cb9e5f0b4f1fe92bd426f12c4dea933f23778067170fd37464f25",
+    "src/tpm2_acpi.c": "fe6766121138072e016a6c8e998582c9d9b32ba0c8c966d3805ba611d2bc73a4",
+    "src/tpm2_diag.h": "9492e49e51620921016ae33dcf1ebad0ad73a931254b7b069bb206782588211a",
+    "src/tpm2_diag_app.c": "5673fc0a8fdee8944cedc1952066c00fc4ccf19e1c5de4c6b407527178a49f60",
+    "src/tpm2_diagnostic.asl": "766256e2d1a3a2123682d4e6505b26a759489949a663baea97dda483efaeb636",
+    "src/tpm2_init_pei.c": "a62a6a8a62a1cef27dae01a05c08147f0c0f59a0a68751362b2f6e7749a1af85",
+    "src/tpm2_policy.c": "9e940e9b253de249347a234efbb46e3c823fda7df5b6e1f54b27db20bba4a0b1",
+    "src/tpm2_shell_test.c": "10ecb64bee16c4d2712b938cfa01867889877804a670f8dee9d7cc1ccbad4ea6"
+  },
+  "linkers": {
+    "i686": "GNU ld (GNU Binutils) 2.47.20260726",
+    "x86_64": "GNU ld (GNU Binutils) 2.47.20260726"
+  },
+  "limitations": [
+    "No hardware boot test",
+    "No production measured-boot/attestation claim",
+    "No physical presence/TPM clear/provisioning UI",
+    "No S3 acceptance",
+    "Reference images must not replace board-specific SPI data"
+  ]
+}
